@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 40px;
+  }
+  .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .icon:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+  li {
+    display: inline-block;
+   width : 7%;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 15px;
+    text-decoration: underline;
+    text-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    text-size-adjust: auto;
+  }
+  
+  li a:hover {
+    background-color: black;
+  }
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(45deg,black,darkblue);
+}
+#abc{
+    border-radius: 100%;
+    position: fixed;
+    top : 5px;
+    right : 15px;
+    bottom: 15px;
+}
+.alig{
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.text{
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    color:aqua;
+    text-align: justify;
+    font-size: 40px;
+    font-weight: bold;
+}
+.text_{
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    color:aqua;
+    text-align: justify;
+    font-size: 25px;
+}
+._text{
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+    color:aqua;
+    text-align: justify;
+    font-size: 25px;
+}
+.tex:nth-of-type(2){
+    margin-bottom: 30px;
+}
+.tex{
+    color : #0ef;
+
+}
+.btn-box{
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    background: #0ef;
+    border-radius: 3%;
+    font-size: 10px;
+    color: black;
+}
+#f{
+    font-size: 16px;
+    text-decoration:none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+
+@media screen and (min-width: 1350px) {
+    .icon{
+     margin: -1rem;
+     padding: 4rem;
+    }
+ }
+@media screen and (min-width: 895px) {
+   .icon{
+    margin: 2rem;
+    padding: 2rem;
+   }
+}
+@media screen and (max-width: 760px) {
+    .icon{
+     margin: -1rem;
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 70%;
+      width: 60%;
+    }
+ }
+ @media screen and (max-width: 620px) {
+    .icon{
+     margin: -1rem;
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 60%;
+      width: 60%;
+    }
+ }
+ @media screen and (max-width: 490px) {
+    .icon{
+     margin: -1rem;
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 50%;
+      width: 60%;
+    }
+ }
+ @media screen and (max-width: 415px) {
+    .icon{
+     margin: -1rem;
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 30%;
+      width: 60%;
+    }
+ }
+ @media screen and (max-width:376px) {
+    .icon{
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 40%;
+      width: 50%;
+    }
+ }
+ @media screen and (max-width:361px) {
+    .icon{
+     padding: 2rem;
+    }
+    .alig{
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    .text{
+        font-size: 25px;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 35%;
+      width: 50%;
+    }
+ }
+ @media screen and (max-width:290px) {
+    .icon{
+     padding: 1rem;
+    }
+    .alig{
+        margin-left: 0rem;
+        margin-top: 5rem;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .btn-box{
+        font-size:10px;
+        padding: -5rem;
+        margin-left: -1rem;
+    }
+    #f{
+        font-size:15px;
+    }
+    li{
+        padding: 0.4rem;
+    }
+    #abc{
+        margin-top: 5rem;
+      height: 25%;
+      width: 50%;
+    }
+ }
